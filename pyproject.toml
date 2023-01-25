@@ -2,7 +2,7 @@
 name = "model-api"
 version = "0.1.0"
 description = "Api for trained model"
-authors = ["Dominykas Šeputis <dom.seputis@gmail.com>"]
+authors = ["Giedrius Stabužis <giedrius.stabuzis@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "model_api"}]

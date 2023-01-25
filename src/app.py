@@ -6,33 +6,15 @@ from fastapi import FastAPI
 from numpy.typing import NDArray
 
 from src.models import car, recipe, tweet
-from src.utilsx.model_utils import load_model
+from src.utils.model_utils import load_model
 
-import cloudpickle
-import urllib.request
+
 # loading model
-
-
 direktorija="C:\\Users\\stabu\\My Drive\\05. Dirbtinis intelektas\\ML\\ML-tveets-about-Ukrain-analysis\\src\\models\\tweet_model.pkl"
 
 tweet_model = load_model(direktorija)
 
-    
-
-
-
-
-
-
-
-
-tweet_model = cloudpickle.load(file)
-
-
-
 app = FastAPI()
-
-
 
 @app.get("/health")
 def health() -> Dict[str, str]:
