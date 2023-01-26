@@ -5,7 +5,7 @@ import pandas as pd
 from fastapi import FastAPI
 from numpy.typing import NDArray
 
-from src.models import car, recipe, tweet
+from src.models import tweet
 from src.utils.model_utils import load_model
 
 
