@@ -4,6 +4,7 @@ This paper analyzes data set and aims to create machine learning model that can 
 
 ## Data analysis and modeling
 notebooks/modelling.ipynb
+![image](https://user-images.githubusercontent.com/55753476/215112545-0214b4b5-89d1-4746-a4b0-e64f2f1df83d.png)
 ### Main content:
 #### Importing Dependencies
 #### Importing dataset and First look
@@ -39,3 +40,7 @@ notebooks/modelling.ipynb
 #### Conclusions about classification
 #### Exporting best model
 
+## FastAPI
+srs/app.py
+![image](https://user-images.githubusercontent.com/55753476/215118511-407b8934-3efd-4fa3-8857-20103caf56e4.png)
+![image](https://user-images.githubusercontent.com/55753476/215119131-12a8d035-c4c7-4db2-976d-c88798932d8e.png)
