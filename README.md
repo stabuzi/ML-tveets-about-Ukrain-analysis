@@ -42,5 +42,7 @@ notebooks/modelling.ipynb
 
 ## FastAPI
 srs/app.py
+
 ![image](https://user-images.githubusercontent.com/55753476/215118511-407b8934-3efd-4fa3-8857-20103caf56e4.png)
+
 ![image](https://user-images.githubusercontent.com/55753476/215119131-12a8d035-c4c7-4db2-976d-c88798932d8e.png)
